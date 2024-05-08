@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Roberto/Integrado_Game/Scenes/MainMenu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Roberto/Integrado_Game/Scenes/SelectCharacter.unity
+    guid: 14333dd288774e142a4bb67cc690fc42
+  - enabled: 1
+    path: Assets/Roberto/Integrado_Game/Scenes/Controllers.unity
+    guid: 028396f026ef7874ea3e4c5f953e2ed5
+  - enabled: 1
+    path: Assets/Roberto/Integrado_Game/Scenes/Games/1_Game.unity
+    guid: b15d08f0f37d371459cf350a098bc535
+  - enabled: 1
+    path: Assets/Roberto/Integrado_Game/Scenes/Games/2_Game.unity
+    guid: 7c1cc286dd21b274588279974091d59b
+  - enabled: 1
+    path: Assets/Roberto/Integrado_Game/Scenes/Games/3_Game.unity
+    guid: b74b10a1fbb74b14687ea42911175666
   m_configObjects: {}
