@@ -240,6 +240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -304,6 +308,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (165)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -491,6 +499,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -740,6 +752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -749,6 +765,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+--- !u!1001 &72363458
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 368
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -63.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &88956022
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -865,6 +942,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (150)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -1053,6 +1134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (179)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -1117,6 +1202,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -1183,6 +1272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -1248,6 +1341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -1257,6 +1354,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+--- !u!1001 &131055375
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 376
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -60.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &132738764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1373,6 +1531,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -1560,6 +1722,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -1781,6 +1947,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -1845,6 +2015,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -1911,6 +2085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (137)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -1975,6 +2153,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (205)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -2041,6 +2223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -2105,6 +2291,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -2171,6 +2361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -2235,6 +2429,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -2306,6 +2504,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0604c2ddd7c59944aa54a2099705560, type: 3}
+--- !u!1001 &224823766
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 367
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &239841522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2423,6 +2682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -2487,6 +2750,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -2553,6 +2820,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (171)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -2617,6 +2888,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -2683,6 +2958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -2747,6 +3026,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -2874,6 +3157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -2938,6 +3225,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (133)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -3223,6 +3514,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0604c2ddd7c59944aa54a2099705560, type: 3}
+--- !u!1001 &326390747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 379
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &333160677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3279,6 +3631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (182)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -3288,6 +3644,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+--- !u!1001 &346268565
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 371
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64.240005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &348582666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3343,6 +3760,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -3408,6 +3829,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -3535,6 +3960,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_NavMeshData
+      value: 
+      objectReference: {fileID: 23800000, guid: 7cdefc13c7da9474882842bc89abd6f0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3718,6 +4151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -3727,6 +4164,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+--- !u!1001 &382847950
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 380
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -60.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.42999983
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &387979331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3843,6 +4341,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (210)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -3970,6 +4472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (195)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -4096,6 +4602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -4160,6 +4670,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (174)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -4226,6 +4740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -4290,6 +4808,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -4356,6 +4878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -4420,6 +4946,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -4608,6 +5138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -4795,6 +5329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (147)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -4859,6 +5397,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -4986,6 +5528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (189)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -5056,6 +5602,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4b0600541fa39a46a8c9bda4633e818, type: 3}
+--- !u!1001 &510099671
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 366
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &512425006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5111,6 +5718,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (135)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -5177,6 +5788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -5241,6 +5856,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (206)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -5368,6 +5987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (169)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -5377,6 +6000,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+--- !u!1001 &534284417
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 377
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -59.829998
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &538150969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5432,6 +6116,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -5559,6 +6247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -5623,6 +6315,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (153)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -5810,6 +6506,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -6181,6 +6881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -6307,6 +7011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -6316,6 +7024,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+--- !u!1001 &615765435
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 374
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 87.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &620093499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6371,6 +7140,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (164)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -6436,6 +7209,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -6685,6 +7462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (208)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -6933,6 +7714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -6997,6 +7782,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -7123,6 +7912,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (201)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -7344,6 +8137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -7408,6 +8205,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -7474,6 +8275,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (209)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -7538,6 +8343,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (207)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -7604,6 +8413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -7668,6 +8481,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -7734,6 +8551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -7743,6 +8564,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+--- !u!1001 &772252343
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 370
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64.240005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &779183577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7860,6 +8742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -7924,6 +8810,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -7990,6 +8880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -8054,6 +8948,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -8241,6 +9139,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -8551,6 +9453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -8615,6 +9521,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -8742,6 +9652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (202)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -8806,6 +9720,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -8872,6 +9790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -8936,6 +9858,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -9002,6 +9928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -9066,6 +9996,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -9193,6 +10127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -9263,6 +10201,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0604c2ddd7c59944aa54a2099705560, type: 3}
+--- !u!1001 &885939578
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 369
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -63.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &888435405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9318,6 +10317,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (186)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -9384,6 +10387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (160)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -9448,6 +10455,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -9697,6 +10708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -9822,6 +10837,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -10071,6 +11090,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -10135,6 +11158,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -10206,6 +11233,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4b0600541fa39a46a8c9bda4633e818, type: 3}
+--- !u!1001 &959943413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 383
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -83.40001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &962623034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10261,6 +11349,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (159)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -10449,6 +11541,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -10513,6 +11609,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -10701,6 +11801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (172)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -10766,6 +11870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -10830,6 +11938,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -10956,6 +12068,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (119)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -11388,6 +12504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (161)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -11458,6 +12578,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0604c2ddd7c59944aa54a2099705560, type: 3}
+--- !u!1001 &1052329606
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 378
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.914
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &1066051136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11574,6 +12755,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (168)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -11701,6 +12886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -11826,6 +13015,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -11953,6 +13146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (155)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -12079,6 +13276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -12143,6 +13344,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (151)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -12209,6 +13414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -12273,6 +13482,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (190)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -12400,6 +13613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -12464,6 +13681,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (204)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -12530,6 +13751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (157)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -12594,6 +13819,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -12843,6 +14072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (176)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -12907,6 +14140,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -13156,6 +14393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -13220,6 +14461,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (185)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -13469,6 +14714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (178)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -13533,6 +14782,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -13599,6 +14852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -13608,6 +14865,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+--- !u!1001 &1251608868
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 373
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &1253892209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13663,6 +14981,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (148)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -13729,6 +15051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (191)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -13793,6 +15119,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (112)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -13981,6 +15311,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -14045,6 +15379,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -14111,6 +15449,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -14176,6 +15518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -14240,6 +15586,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (177)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -14611,6 +15961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (149)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -14737,6 +16091,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -14862,6 +16220,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -15172,6 +16534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -15236,6 +16602,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -15302,6 +16672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -15366,6 +16740,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -15676,6 +17054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -15740,6 +17122,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -15806,6 +17192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -15870,6 +17260,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (200)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -16058,6 +17452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -16122,6 +17520,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -16188,6 +17590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -16252,6 +17658,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (163)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -16318,6 +17728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -16383,6 +17797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -16447,6 +17865,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (193)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -16574,6 +17996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -16700,6 +18126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -16765,6 +18195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -16774,6 +18208,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+--- !u!1001 &1476668396
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 365
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &1479075424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16891,6 +18386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -16955,6 +18454,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -17143,6 +18646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -17207,6 +18714,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (154)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -17334,6 +18845,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -17459,6 +18974,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -17586,6 +19105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -17595,6 +19118,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+--- !u!1001 &1532942276
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 382
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -83.770004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &1541187216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17712,6 +19296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -17721,6 +19309,128 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+--- !u!1001 &1554878585
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 372
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+--- !u!1001 &1564418835
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 364
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &1566168118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17776,6 +19486,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -17841,6 +19555,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (173)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -18029,6 +19747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -18216,6 +19938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -18280,6 +20006,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (199)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -18407,6 +20137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (198)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -18471,6 +20205,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -18537,6 +20275,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (132)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -18601,6 +20343,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (188)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -18667,6 +20413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -18732,6 +20482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -18796,6 +20550,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -19167,6 +20925,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -19293,6 +21055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (166)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -19357,6 +21123,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -19545,6 +21315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -19732,6 +21506,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -19796,6 +21574,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -19923,6 +21705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -19987,6 +21773,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (152)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -20053,6 +21843,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -20117,6 +21911,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -20183,6 +21981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -20247,6 +22049,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -20313,6 +22119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -20377,6 +22187,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -20565,6 +22379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (197)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -20630,6 +22448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -20694,6 +22516,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -20821,6 +22647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -20885,6 +22715,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -21012,6 +22846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -21076,6 +22914,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (192)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -21147,6 +22989,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0604c2ddd7c59944aa54a2099705560, type: 3}
+--- !u!1001 &1934246233
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 381
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -59.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &1938232446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21202,6 +23105,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -21267,6 +23174,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (180)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -21455,6 +23366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -21519,6 +23434,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (194)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -21585,6 +23504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -21650,6 +23573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -21714,6 +23641,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -21901,6 +23832,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (175)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -22150,6 +24085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -22275,6 +24214,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (167)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -22402,6 +24345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (156)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -22466,6 +24413,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -22532,6 +24483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -22597,6 +24552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (181)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -22661,6 +24620,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (203)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -22819,6 +24782,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -22883,6 +24850,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (196)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -22949,6 +24920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -23013,6 +24988,10 @@ PrefabInstance:
     - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
@@ -23079,6 +25058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -23144,6 +25127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plane_Floor Variant (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 4135759145637749892, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6468053893503486740, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
       propertyPath: m_NavMeshData
       value: 
@@ -23153,6 +25140,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0dc1eda165f794f9077431db0d47dc, type: 3}
+--- !u!1001 &2130105879
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8073480592793003143, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_Name
+      value: SM_Column Variant (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 87.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881401373797629501, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d3cb7d3b1935ec46ae18c469b60c5cd, type: 3}
 --- !u!1001 &2136295509
 PrefabInstance:
   m_ObjectHideFlags: 0
