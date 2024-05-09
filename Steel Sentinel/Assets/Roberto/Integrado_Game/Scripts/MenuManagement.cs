@@ -32,7 +32,11 @@ public class MainMenu : MonoBehaviour
 
     }
 
+    public void ButtonQuit()
+    {
+        Application.Quit();
 
+    }
 
     
 
