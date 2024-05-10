@@ -37,6 +37,7 @@ public class EnemyDamage : MonoBehaviour
     {
         if (health <= 0)
         {
+            SpawnEnemy.Instance.enemyCounts--;
             deathEffect.SetActive(true);
             deathEffect.transform.position = transform.position;
             Destroy(gameObject);

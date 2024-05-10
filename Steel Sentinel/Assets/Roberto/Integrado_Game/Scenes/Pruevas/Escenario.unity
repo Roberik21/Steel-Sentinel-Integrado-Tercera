@@ -2202,6 +2202,8 @@ MonoBehaviour:
   xPos: 0
   zPos: 0
   enemyCounts: 0
+  maxEnemies: 10
+  canSpawn: 0
 --- !u!4 &174015146
 Transform:
   m_ObjectHideFlags: 0
@@ -18566,6 +18568,7 @@ GameObject:
   - component: {fileID: 1495039969}
   - component: {fileID: 1495039968}
   - component: {fileID: 1495039967}
+  - component: {fileID: 1495039971}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -18654,13 +18657,31 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1495039966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -82.04227, y: 1.48, z: 18.889988}
+  m_LocalPosition: {x: -82.04227, y: 1.48, z: 15.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 386
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1495039971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495039966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d541192712f207449239087127a6b5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 100
+  original: {fileID: 0}
+  damage: {fileID: 0}
+  feedbackTime: 0
+  deathEffect: {fileID: 0}
 --- !u!1001 &1495368294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21048,7 +21069,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682917011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -82.04227, y: 1.48, z: 18.889988}
+  m_LocalPosition: {x: -82.04227, y: 1.48, z: 21.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
