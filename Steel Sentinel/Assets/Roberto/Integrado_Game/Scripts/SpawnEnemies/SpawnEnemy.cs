@@ -18,16 +18,16 @@ public class SpawnEnemy : MonoBehaviour
         
     }
 
-    Ienumerator EnemyDrop()
+    IEnumerator EnemyDrop()
     {
         while (enemyCounts < 10)//Numero de enemigos
         {
-            xPos = Random.Range(1, 50);//Limite de rango en X del Spawn
-            zPos = Random.Range(1, 31);//Limite de rango en Z del Spawn
-            Instiate(TheEnemy_1, new Vector3(xPos, 43, zPos), Quaternion.identity);//Cambiar el 43 por la altura donde respawnea el enemigo
-            Instiate(TheEnemy_2, new Vector3(xPos, 43, zPos), Quaternion.identity);
-            Instiate(TheEnemy_3, new Vector3(xPos, 43, zPos), Quaternion.identity);
-            yield return new WaitForSecondos(0.1f);//Tiempo que tienen de aparecer unos a otros
+            xPos = Random.Range(-80, -62);//Limite de rango en X del Spawn
+            zPos = Random.Range(3, 21);//Limite de rango en Z del Spawn
+            Instantiate(TheEnemy_1, new Vector3(xPos, 0.75f, zPos), Quaternion.identity);//Cambiar el 43 por la altura donde respawnea el enemigo
+            Instantiate(TheEnemy_2, new Vector3(xPos, 0.75f, zPos), Quaternion.identity);
+            Instantiate(TheEnemy_3, new Vector3(xPos, 0.75f, zPos), Quaternion.identity);
+            yield return new WaitForSeconds(0.1f);//Tiempo que tienen de aparecer unos a otros
             enemyCounts += 1;
 
         }
