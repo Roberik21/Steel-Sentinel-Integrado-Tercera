@@ -37,15 +37,15 @@ public class SpawnEnemy : MonoBehaviour
     private void Update()
     {
         
-        if (enemyCounts < maxEnemies) { Spawn(); }
+        if (enemyCounts < maxEnemies) { Spawn_1(); }
     }
 
     IEnumerator EnemyDrop()
     {
         while (enemyCounts < 10)//Numero de enemigos
         {
-            xPos = Random.Range(-30, -26);//Limite de rango en X del Spawn
-            zPos = Random.Range(10, -6);//Limite de rango en Z del Spawn
+            xPos = Random.Range(-26, -30);//Limite de rango en X del Spawn
+            zPos = Random.Range(-6, 10);//Limite de rango en Z del Spawn
             Instantiate(TheEnemy_1, new Vector3(xPos, 0.75f, zPos), Quaternion.identity);//Cambiar el 43 por la altura donde respawnea el enemigo
             Instantiate(TheEnemy_2, new Vector3(xPos, 0.75f, zPos), Quaternion.identity);
             Instantiate(TheEnemy_3, new Vector3(xPos, 0.75f, zPos), Quaternion.identity);
@@ -56,13 +56,47 @@ public class SpawnEnemy : MonoBehaviour
 
     }
 
-    void Spawn()
+    void Spawn_1()
     {
         if (canSpawn) 
         {
             canSpawn = false;
-            xPos = Random.Range(-80, -62);//Limite de rango en X del Spawn
-            zPos = Random.Range(3, 21);//Limite de rango en Z del Spawn
+            xPos = Random.Range(-26, -30);//Limite de rango en X del Spawn
+            zPos = Random.Range(-6, 10);//Limite de rango en Z del Spawn
+            int nEnemy = Random.Range(1, 3);
+            Debug.Log(nEnemy);
+            if (nEnemy == 1) { Instantiate(TheEnemy_1, new Vector3(xPos, 0.75f, zPos), Quaternion.identity); } //Cambiar el 43 por la altura donde respawnea el enemigo
+            if (nEnemy == 2) { Instantiate(TheEnemy_2, new Vector3(xPos, 0.75f, zPos), Quaternion.identity); }
+            if (nEnemy == 3) { Instantiate(TheEnemy_3, new Vector3(xPos, 0.75f, zPos), Quaternion.identity); }
+            enemyCounts += 1;
+            Invoke(nameof(ResetSpawn), 1f);
+        }
+    }
+
+    void Spawn_2()
+    {
+        if (canSpawn)
+        {
+            canSpawn = false;
+            xPos = Random.Range(-26, -30);//Limite de rango en X del Spawn
+            zPos = Random.Range(6, -2);//Limite de rango en Z del Spawn
+            int nEnemy = Random.Range(1, 3);
+            Debug.Log(nEnemy);
+            if (nEnemy == 1) { Instantiate(TheEnemy_1, new Vector3(xPos, 0.75f, zPos), Quaternion.identity); } //Cambiar el 43 por la altura donde respawnea el enemigo
+            if (nEnemy == 2) { Instantiate(TheEnemy_2, new Vector3(xPos, 0.75f, zPos), Quaternion.identity); }
+            if (nEnemy == 3) { Instantiate(TheEnemy_3, new Vector3(xPos, 0.75f, zPos), Quaternion.identity); }
+            enemyCounts += 1;
+            Invoke(nameof(ResetSpawn), 1f);
+        }
+    }
+
+    void Spawn_3()
+    {
+        if (canSpawn)
+        {
+            canSpawn = false;
+            xPos = Random.Range(10, -6);//Limite de rango en X del Spawn
+            zPos = Random.Range(42, 34);//Limite de rango en Z del Spawn
             int nEnemy = Random.Range(1, 3);
             Debug.Log(nEnemy);
             if (nEnemy == 1) { Instantiate(TheEnemy_1, new Vector3(xPos, 0.75f, zPos), Quaternion.identity); } //Cambiar el 43 por la altura donde respawnea el enemigo
