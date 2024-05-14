@@ -36,7 +36,7 @@ public class EnemyAI : MonoBehaviour
 
    //     target = GameObject.Find("Player").transform;//Al poder persegirlo cuando toca
 
-        target = GameObject.Find("Altar").transform;//Al poder persegirlo cuando toca
+        target = GameObject.Find("PlayerPruebamario").transform;//Al poder persegirlo cuando toca
 
         agent = GetComponent<NavMeshAgent>();
     }

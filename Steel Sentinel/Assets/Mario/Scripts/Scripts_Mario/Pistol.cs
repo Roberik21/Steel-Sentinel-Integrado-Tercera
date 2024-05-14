@@ -82,7 +82,21 @@ public class Pistol : MonoBehaviour
 
     void VisualEffects()
     {
+        if (Input.GetButtonDown("Fire1"))
+            if (Time.time > shotRateTime)
+            {
+                GameObject newBala;
 
+                newBala = Instantiate(bala, shootPoint.position, shootPoint.rotation);
+
+                newBala.GetComponent<Rigidbody>().AddForce(shootPoint.forward * shotForce);
+
+                shotRateTime = Time.time + shotRate;
+
+                Destroy(newBala, 2);
+
+
+            }
     }
 
     void Shoot()
@@ -93,28 +107,14 @@ public class Pistol : MonoBehaviour
         float spreadY = Random.Range(-spread, spread);
         float spreadZ = Random.Range(-spread, spread);
         Vector3 direction = fpsCam.transform.forward + new Vector3(spreadX, spreadY, spreadZ);
-
-        if (Time.time > shotRateTime)
-        {
-            GameObject newBala;
-
-            newBala = Instantiate(bala, shootPoint.position, shootPoint.rotation);
-
-            newBala.GetComponent<Rigidbody>().AddForce(shootPoint.forward * shotForce);
-
-            shotRateTime = Time.time + shotRate;
-
-            Destroy(newBala, 2);
-
-
-        }
+       
         //Raycast del disparo
         //Generar un Raycast: Physics.Raycast(origen, Direccion, Variable Almacen del impacto, longitud del rayo, a que Layer golpea el rayo
         //Si no declaramos layer en un Raycast, golpea a todo lo que tenga colliders
         if (Physics.Raycast(fpsCam.transform.position, direction, out hit, range, enemyLayer))
         {
            
-            //Debug.DrawRay(fpsCam.transform.position, direction, Color.red);
+            Debug.DrawRay(fpsCam.transform.position, direction, Color.red);
             Debug.Log(hit.collider.name);
             //Aparti de aqui se codean los efectos del Raycast.En este caso es un disparo
             //En este caso se codea hacer daño

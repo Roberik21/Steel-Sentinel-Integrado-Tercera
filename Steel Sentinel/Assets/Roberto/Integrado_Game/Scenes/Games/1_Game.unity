@@ -393,15 +393,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 744300225965927351, guid: 6687ac4835f6c9b4f965858b65f474b6, type: 3}
       propertyPath: range
-      value: 1500
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 744300225965927351, guid: 6687ac4835f6c9b4f965858b65f474b6, type: 3}
       propertyPath: damage
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 744300225965927351, guid: 6687ac4835f6c9b4f965858b65f474b6, type: 3}
       propertyPath: ammoSize
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 744300225965927351, guid: 6687ac4835f6c9b4f965858b65f474b6, type: 3}
       propertyPath: canShoot
@@ -417,15 +417,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 744300225965927351, guid: 6687ac4835f6c9b4f965858b65f474b6, type: 3}
       propertyPath: reloadTime
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 744300225965927351, guid: 6687ac4835f6c9b4f965858b65f474b6, type: 3}
       propertyPath: bulletsPerTap
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 744300225965927351, guid: 6687ac4835f6c9b4f965858b65f474b6, type: 3}
       propertyPath: shootingCooldown
-      value: 0.05
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 744300225965927351, guid: 6687ac4835f6c9b4f965858b65f474b6, type: 3}
+      propertyPath: enemyLayer.m_Bits
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2377464040943722437, guid: 6687ac4835f6c9b4f965858b65f474b6, type: 3}
       propertyPath: m_Name
@@ -1306,7 +1310,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4027288793067231251, guid: 5363bad9fbe0f3f4e817ea16f0f87c26, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4027288793067231251, guid: 5363bad9fbe0f3f4e817ea16f0f87c26, type: 3}
       propertyPath: targetLayer.m_Bits
@@ -1326,7 +1330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9111796457965799104, guid: 5363bad9fbe0f3f4e817ea16f0f87c26, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.541
       objectReference: {fileID: 0}
     - target: {fileID: 9111796457965799104, guid: 5363bad9fbe0f3f4e817ea16f0f87c26, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1700,7 +1704,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2685283047609487814, guid: 880965414c25dec479ceaee2ebebcd7c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2685283047609487814, guid: 880965414c25dec479ceaee2ebebcd7c, type: 3}
       propertyPath: m_TagString
