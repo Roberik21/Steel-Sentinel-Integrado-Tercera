@@ -9,11 +9,13 @@ public class Sistema_de_puntos : MonoBehaviour
     [SerializeField] float vida;
     [SerializeField] float maxvida;
     public float playerDam;
+    public GameObject Bala;
+    public Transform spawnPoint;
 
     [Header("Feedback System")]
     [SerializeField] Material damaged;
     [SerializeField] float feedbackTime;
-    [SerializeField] Material original;
+    //[SerializeField] Material original;
     GameObject model;
     //Ref al objeto que contiene el mesh del personaje (solo en caso de que el mesh vaya aparte del código)
     MeshRenderer modelRend; //Ref al meshRenderer del objeto con modelado (permite acceder a su material)
@@ -22,7 +24,7 @@ public class Sistema_de_puntos : MonoBehaviour
     {
         model = GameObject.Find("Body");
         vida = maxvida;
-        original = modelRend.material;
+        //original = modelRend.material;
         modelRend = model.GetComponent<MeshRenderer>();
     }
 
@@ -49,7 +51,7 @@ public class Sistema_de_puntos : MonoBehaviour
         //Aquí cabe codear cualquier efecto de recibir daño que se desee
        modelRend.material = damaged; //FEEDBACK DE RECIBIR DAÑO (EN ESTE CASO CAMBIO DE COLOR)
        // health -= damageToTake;
-        Invoke(nameof(ResetMaterial),feedbackTime);
+      //  Invoke(nameof(ResetMaterial),feedbackTime);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -60,10 +62,10 @@ public class Sistema_de_puntos : MonoBehaviour
            
         }
     }
-    void ResetMaterial()
+    /*void ResetMaterial()
     {
         modelRend.material = original;
-    }
+    }*/
 }
 
 

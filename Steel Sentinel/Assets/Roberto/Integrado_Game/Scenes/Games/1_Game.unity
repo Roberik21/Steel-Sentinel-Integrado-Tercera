@@ -395,10 +395,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerPruebamario
       objectReference: {fileID: 0}
+    - target: {fileID: 3934445322518603028, guid: 6687ac4835f6c9b4f965858b65f474b6, type: 3}
+      propertyPath: canShoot
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3948768321446369958, guid: 6687ac4835f6c9b4f965858b65f474b6, type: 3}
       propertyPath: groundCheck
       value: 
       objectReference: {fileID: 419538583}
+    - target: {fileID: 3948768321446369958, guid: 6687ac4835f6c9b4f965858b65f474b6, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -509,24 +517,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1009045536 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2685283047609487814, guid: 880965414c25dec479ceaee2ebebcd7c, type: 3}
-  m_PrefabInstance: {fileID: 1834395511}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1009045541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1009045536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9cc24fd185e6d14bad1439ca913b076, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PointsSum: 25
 --- !u!1 &1055348542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,9 +1156,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2685283047609487814, guid: 880965414c25dec479ceaee2ebebcd7c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1009045541}
     - targetCorrespondingSourceObject: {fileID: 2242535075103716436, guid: 880965414c25dec479ceaee2ebebcd7c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1295962191}
