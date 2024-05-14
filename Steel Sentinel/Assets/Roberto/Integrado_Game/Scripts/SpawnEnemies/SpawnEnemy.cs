@@ -44,8 +44,8 @@ public class SpawnEnemy : MonoBehaviour
     {
         while (enemyCounts < 10)//Numero de enemigos
         {
-            xPos = Random.Range(-80, -62);//Limite de rango en X del Spawn
-            zPos = Random.Range(3, 21);//Limite de rango en Z del Spawn
+            xPos = Random.Range(-30, -26);//Limite de rango en X del Spawn
+            zPos = Random.Range(10, -6);//Limite de rango en Z del Spawn
             Instantiate(TheEnemy_1, new Vector3(xPos, 0.75f, zPos), Quaternion.identity);//Cambiar el 43 por la altura donde respawnea el enemigo
             Instantiate(TheEnemy_2, new Vector3(xPos, 0.75f, zPos), Quaternion.identity);
             Instantiate(TheEnemy_3, new Vector3(xPos, 0.75f, zPos), Quaternion.identity);
