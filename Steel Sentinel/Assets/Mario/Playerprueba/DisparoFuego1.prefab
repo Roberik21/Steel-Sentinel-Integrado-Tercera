@@ -9688,7 +9688,7 @@ GameObject:
   - component: {fileID: 1858968053676233602}
   - component: {fileID: 4396880650617376670}
   m_Layer: 0
-  m_Name: DisparoFuego
+  m_Name: DisparoFuego1
   m_TagString: Bala
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

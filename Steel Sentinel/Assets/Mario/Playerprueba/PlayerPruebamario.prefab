@@ -31,6 +31,37 @@ Transform:
   m_Father: {fileID: 246571343733674746}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &411848748718620716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5145105581007760849}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5145105581007760849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411848748718620716}
+  m_LocalRotation: {x: -0, y: -0.95304435, z: -0, w: -0.30283073}
+  m_LocalPosition: {x: 0.41447708, y: 0.16043949, z: 0.57126063}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 246571343733674746}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1138722896909600439
 GameObject:
   m_ObjectHideFlags: 0
@@ -80,6 +111,7 @@ GameObject:
   - component: {fileID: 3948768321446369958}
   - component: {fileID: 3934445322518603028}
   - component: {fileID: 7707791857168365622}
+  - component: {fileID: 744300225965927351}
   m_Layer: 0
   m_Name: PlayerPruebamario
   m_TagString: Player
@@ -102,6 +134,7 @@ Transform:
   - {fileID: 7935958109539571552}
   - {fileID: 542230742020904460}
   - {fileID: 4677108953011137720}
+  - {fileID: 5145105581007760849}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 215.255, z: 0}
@@ -246,7 +279,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2377464040943722437}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d94e5c9251b0ab54aadb221106b5edfe, type: 3}
   m_Name: 
@@ -370,6 +403,44 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &744300225965927351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2377464040943722437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb038a868d18f074d8c69be92cd71082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCam: {fileID: 5538535357845764308}
+  shootPoint: {fileID: 5145105581007760849}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  weaponSound: {fileID: 0}
+  bala: {fileID: 5444813403578664475, guid: d74cd6c7a4eed30448deecd9335a0e43, type: 3}
+  shotForce: 1500
+  shotRate: 0.5
+  damage: 0
+  range: 0
+  spread: 0
+  shootingCooldown: 0
+  timeBetweenShoots: 0
+  reloadTime: 0
+  allowButtonHold: 0
+  ammoSize: 0
+  bulletsPerTap: 0
+  bulletsLeft: 0
+  bulletsShot: 0
+  shooting: 0
+  canShoot: 0
+  reloading: 0
+  muzzleFlash: {fileID: 0}
+  hitGraphic: {fileID: 0}
+  attackIsSounding: 0
 --- !u!1 &2765540295915323338
 GameObject:
   m_ObjectHideFlags: 0
