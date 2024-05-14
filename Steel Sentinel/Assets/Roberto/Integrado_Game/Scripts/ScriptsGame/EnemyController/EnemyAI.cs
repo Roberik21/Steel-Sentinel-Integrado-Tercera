@@ -33,7 +33,11 @@ public class EnemyAI : MonoBehaviour
 
     private void Awake()
     {
+
    //     target = GameObject.Find("Player").transform;//Al poder persegirlo cuando toca
+
+        target = GameObject.Find("Altar").transform;//Al poder persegirlo cuando toca
+
         agent = GetComponent<NavMeshAgent>();
     }
 
