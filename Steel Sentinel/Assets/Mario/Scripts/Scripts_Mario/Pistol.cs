@@ -82,7 +82,7 @@ public class Pistol : MonoBehaviour
 
     void VisualEffects()
     {
-        if (Input.GetButtonDown("Fire1"))
+    /*    if (Input.GetButtonDown("Fire1"))
             if (Time.time > shotRateTime)
             {
                 GameObject newBala;
@@ -96,7 +96,7 @@ public class Pistol : MonoBehaviour
                 Destroy(newBala, 2);
 
 
-            }
+            }*/
     }
 
     void Shoot()
