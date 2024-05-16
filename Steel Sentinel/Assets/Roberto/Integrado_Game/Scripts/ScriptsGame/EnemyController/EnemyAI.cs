@@ -36,7 +36,7 @@ public class EnemyAI : MonoBehaviour
 
    //     target = GameObject.Find("Player").transform;//Al poder persegirlo cuando toca
 
-        target = GameObject.Find("PlayerPruebamario").transform;//Al poder persegirlo cuando toca
+        target = GameObject.Find("Altar").transform;//Al poder persegirlo cuando toca
 
         agent = GetComponent<NavMeshAgent>();
     }
@@ -51,11 +51,14 @@ public class EnemyAI : MonoBehaviour
 
         //Cambios dinamicos de estado de la Ia
         //Si no dettecta el target ni esta en rango de ataque: PATRULLA
+        /*
         if (!targetInSightRange && !targetInattackRange) Patroling();
         //Si detecta el target pero no esta en rango de ataque; PERSIGUE
         if (targetInSightRange && !targetInattackRange) ChaseTarget();
         //Si detecta el target y esta en rango de ataque: ATACA
         if (targetInSightRange && targetInattackRange) AttackTarget();
+        */
+        ChaseTarget();
     }
     void Patroling()
     {
